@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   resources :posts
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
+ 
   # Reveal health status one monitors to verify that the app is live.
   get "up" => "rails/health#show", as: :rails_health_check
 
